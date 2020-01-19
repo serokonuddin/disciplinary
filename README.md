@@ -22,3 +22,8 @@
 
 6. next command:
    php artisan serve
+   
+   
+   Here
+    
+   Offence and Nature Of Punishment use a combobox.

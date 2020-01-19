@@ -16,12 +16,9 @@
    first user:user1@email.com password:password and user:user2@email.com password:password 
 
    employee table 2 data added employee code 1001,1002
-
-5. Next Command:
-    php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 	
-6. Next Command:
+5. Next Command:
    php artisan jwt:secret
 
-7. next command:
+6. next command:
    php artisan serve

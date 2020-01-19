@@ -1,9 +1,9 @@
 # disciplinary
-1. create .env file and copy all text in .env.example paste .env file and also connect to database next run this command
-   php artisan key:generate
-   
-2. At first run this command:
+1. At first run this command:
    composer update
+
+2. create .env file and copy all text in .env.example paste .env file and also connect to database next run this command
+   :php artisan key:generate
 
 3. next migration run command:
    php artisan migrate

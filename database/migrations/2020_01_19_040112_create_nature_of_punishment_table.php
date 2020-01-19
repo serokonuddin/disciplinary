@@ -16,7 +16,7 @@ class CreateNatureOfPunishmentTable extends Migration
         Schema::create('nature_of_punishment', function (Blueprint $table) {
             $table->increments('id');
             $table->string('punishment_type');
-            $table->timestamps();
+            
         });
     }
 

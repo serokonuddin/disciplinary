@@ -16,7 +16,7 @@ class CreateOffenceTable extends Migration
         Schema::create('offence', function (Blueprint $table) {
             $table->increments('id');
             $table->string('offence_name');
-            $table->timestamps();
+            
         });
     }
 

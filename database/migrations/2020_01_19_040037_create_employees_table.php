@@ -24,7 +24,7 @@ class CreateEmployeesTable extends Migration
             $table->string('spds');
             $table->string('lpds');
             $table->string('image');
-            $table->timestamps();
+           
         });
     }
 

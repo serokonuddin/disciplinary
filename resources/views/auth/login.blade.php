@@ -81,6 +81,9 @@
                                                 location.href = "{{url('/home')}}/"+data.access_token;
                                             }
                                            
+                                        },
+                                        error: function (error) {
+                                            alert('Please Enter Your Valid Username And Password');
                                         }
                                     });
                                     

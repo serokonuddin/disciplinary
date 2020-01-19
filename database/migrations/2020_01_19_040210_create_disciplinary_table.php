@@ -23,7 +23,7 @@ class CreateDisciplinaryTable extends Migration
             $table->string('punishment_line_2');
             $table->string('remarks');
             $table->integer('created_by');
-            $table->integer('updated_by');
+            $table->integer('updated_by')->nullable();;
             $table->timestamps();
         });
     }

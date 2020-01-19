@@ -12,7 +12,7 @@ class EmployeeTableSeeder extends Seeder
     public function run()
     {
         DB::table('employees')->insert([
-            'employee_code' => '10001',
+            'employee_code' => '1001',
             'employee_name' => 'rokon uddin',
             'ranks' => '2nd Ranks',
             'designation' => 'web developer',
@@ -24,7 +24,7 @@ class EmployeeTableSeeder extends Seeder
             
         ]);
         DB::table('employees')->insert([
-            'employee_code' => '10002',
+            'employee_code' => '1002',
             'employee_name' => 'Sohidul Islam Tity',
             'ranks' => '3rd Ranks',
             'designation' => 'marketing Officer',

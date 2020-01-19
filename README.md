@@ -4,9 +4,24 @@
    
 2. At first run this command
    composer update
-   
-3. Next Command
+
+3. next migration run command
+   php artisan migrate
+
+4. next seeding run command
+   php artisan db:seed
+
+   here two table users and employees
+
+   first user:user1@email.com password:password and user:user2@email.com password:password 
+
+   employee table 2 data added employee code 1001,1002
+
+5. Next Command
     php artisan vendor:publish --provider="Tymon\JWTAuth\Providers\LaravelServiceProvider"
 	
-4. Next Command
+6. Next Command
    php artisan jwt:secret
+
+7. next command
+   php artisan serve
